@@ -64,6 +64,10 @@ header {
     font-style: italic
 }
 
+.container01 .vert02 .action {
+font-size: 1.5vw;
+}
+
 .container01 .vert02 .lay_text h3 {
     font-size: 1.72vw
 }
