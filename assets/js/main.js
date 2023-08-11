@@ -137,11 +137,7 @@ nextButton.addEventListener("click", (()=>{
     carouselItems.style.transform = `translateX(-${100 * currentIndex / 1.5}%)`)
 }
 )),
-isMobileDevice() || (VanillaTilt.init(document.querySelectorAll(".ng"), {
-    speed: 200,
-    glare: !0
-}),
-VanillaTilt.init(document.querySelectorAll(".ng"))),
+
 document.addEventListener("DOMContentLoaded", (function() {
     for (var e = document.getElementsByClassName("accordion-item"), t = 0; t < e.length; t++) {
         e[t].querySelector(".accordion-header").addEventListener("click", n)
@@ -157,6 +153,15 @@ document.addEventListener("DOMContentLoaded", (function() {
         this.value = e
     }
     ));
+
+    document.getElementById("telefone2").addEventListener("input", (function() {
+        const e = function(e) {
+            return e.length <= 10 ? e.replace(/^(\d{2})(\d{4})(\d{4})$/, "($1) $2-$3") : e.replace(/^(\d{2})(\d{5})(\d{4})$/, "($1) $2-$3")
+        }(this.value.replace(/\D/g, ""));
+        this.value = e
+    }
+    ));
+
     const o = document.querySelector(".abertura_de_empresa");
     o.addEventListener("submit", (function(e) {
         if (e.preventDefault(),
@@ -168,7 +173,20 @@ document.addEventListener("DOMContentLoaded", (function() {
         } else
             alert("Por favor, preencha todos os campos obrigatórios.")
     }
-    ))
+    ));
+
+    const x = document.querySelector(".abertura_de_empresa_pop");
+    x.addEventListener("submit", (function(e) {
+        if (e.preventDefault(),
+        x.checkValidity()) {
+            setTimeout(() => {
+                window.location.replace("https://wa.me/5587981025310?text=Ol%C3%A1%2C+gostaria+de+falar+com+um+especialista+cont%C3%A1bil.+");
+            }, 1000);
+        } else
+            alert("Por favor, preencha todos os campos obrigatórios.")
+    }
+    ));
+
 }
 ));
 var scrollLink = $(".page-scroll");
@@ -181,6 +199,8 @@ $(window).scroll((function() {
     ))
 }
 ));
+
+
 const services = document.querySelectorAll(".serv")
   , popop = document.createElement("div");
 popop.classList.add("popop"),
@@ -214,3 +234,28 @@ function typeText() {
         setTimeout(typeText, 100); // Intervalo entre as letras (em milissegundos)
     }
 }
+
+//pop whatsApp
+
+document.querySelector('.wapp').addEventListener('click', ()=>{
+    document.querySelector('.pop').style.visibility = 'visible';
+})
+document.querySelector('.fa-times').addEventListener('click', ()=>{
+    document.querySelector('.pop').style.visibility = 'hidden';
+});
+document.querySelector('.country-image').src = 'https://dk9suync0k2va.cloudfront.net/js/rd/stable/flags/4x3/br.svg';
+document.getElementById('countrySelect').addEventListener('change', function() {
+    var selectElement = document.getElementById("countrySelect");
+    var selectedOption = selectElement.options[selectElement.selectedIndex];
+
+    var codigoDiscagem = selectedOption.dataset.code;
+
+    if (codigoDiscagem) {
+        document.querySelector('.code').textContent = codigoDiscagem;
+        console.log("Código de discagem:", codigoDiscagem);
+    } else {
+        console.log("Código de discagem não encontrado.");
+    }
+    document.querySelector('.country-image').src = 'https://dk9suync0k2va.cloudfront.net/js/rd/stable/flags/4x3/'+this.value+'.svg'
+});
+
