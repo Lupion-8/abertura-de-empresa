@@ -362,3 +362,30 @@ font-size: 1.5vw;
 .container03 .vert02 .action::after, .container05 .action::after{
 content: ' Agende uma consulta gratuita.';
 }
+
+
+
+
+.wapp {
+    color: #fff;
+    position: fixed;
+    right: 1vw;
+    bottom: 3.843vw;
+    width: 5.227vw;
+    height: 5.765vw;
+    background-image: url('../images/wpp.webp');
+    background-size: cover;
+    background-size: 5.381vw;
+    background-repeat: no-repeat;
+    text-align: center;
+    z-index: 99;
+    -webkit-transition: all .3s ease-out 0s;
+    -moz-transition: all .3s ease-out 0s;
+    -ms-transition: all .3s ease-out 0s;
+    -o-transition: all .3s ease-out 0s;
+    transition: all .3s ease-out 0s;
+    display: none;
+    display: inline-block;
+    z-index: 1000;
+    cursor: pointer;
+}

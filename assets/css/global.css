@@ -478,6 +478,7 @@ section.sec000 {
     flex-direction: column;
     padding: 1vw;
     width: auto;
+    background-color: #ebe5de;
 }
 
 .lay_whats .abertura_de_empresa_pop .nameTelefone{

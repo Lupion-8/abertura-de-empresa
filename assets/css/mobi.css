@@ -457,4 +457,81 @@ footer {
     margin-right: 1vw;
     font-size: 5vw;
     margin-bottom: 1vw
-};
+}
+
+/*====*/
+.wapp{
+    bottom: 2.843vw;
+    width: 19.227000000000004vw;
+    height: 19.765vw;
+    background-size: 16.381vw;
+}
+
+.lay_whats .text {
+    padding: 6vw;
+}
+
+.lay_whats {
+    right: 3vw;
+    bottom: 74vw;
+    width: 93vw;
+}
+
+.lay_whats .text span {
+    max-width: 75vw;
+    font-size: 4.444vw;
+}
+
+.lay_whats .abertura_de_empresa_pop {
+    padding: 4vw;
+}
+
+.lay_whats .abertura_de_empresa_pop .nameTelefone .nn, .lay_whats .abertura_de_empresa_pop .nameTelefone .tt, .lay_whats .abertura_de_empresa_pop .mail .ee {
+    font-size: 3.889vw;
+    border-radius: 1.389vw;
+    border-width: 0.077vw;
+    width: 77vw;
+}
+
+#countrySelect {
+    padding-left: 14vw;
+    width: 15.5vw;
+    height:  12.59vw;
+}
+
+.country-image {
+    top: 50%;
+    left: calc(50% - 6px);
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 9vw;
+    outline: none;
+}
+
+span.code {
+    position: relative;
+    left: 23vw;
+    font-size: 4vw;
+    top: 11vw;
+    transform: translate(-50%, -50%);
+}
+
+.abertura_de_empresa_pop .nameTelefone .tt {
+    padding-left: 20.5vw;
+}
+
+div.pop > div > form.abertura_de_empresa_pop > button.envi {
+    -ms-flex-align: center;
+    -ms-flex-direction: column;
+    -ms-flex-pack: center;
+    background-color: rgba(83,164,81,1);
+    border-bottom-style: none;
+    border-color: #000000;
+    border-left-style: none;
+    border-radius: 1.389vw;
+    font-family: Open Sans, sans-serif;
+    height: auto;
+    margin-top: 1vw;
+    max-width: 72vw;
+    font-size: 4vw;
+}
