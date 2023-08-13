@@ -22,6 +22,7 @@ html::-webkit-scrollbar-track {
     font-family: 'arial';
 }
 
+.logo{ transition: 500ms;}
 .sec01 {
     background-image: url(../images/banner-bg.avif);
     background-repeat: no-repeat;

@@ -189,16 +189,18 @@ document.addEventListener("DOMContentLoaded", (function() {
 
 }
 ));
-var scrollLink = $(".page-scroll");
-$(window).scroll((function() {
-    var e = $(this).scrollTop();
-    scrollLink.each((function() {
-        $(this.hash).offset().top - 73 <= e && ($(this).parent().addClass("active"),
-        $(this).parent().siblings().removeClass("active"))
+$(window).on('scroll', function (event) {
+    var scroll = $(window).scrollTop();
+    if (isMobileDevice() == false) {
+        if (scroll < 20) {
+            document.querySelector(".logo").style.width = '14.688vw';
+            document.querySelector(".logo").style.height = '8.069vw';
+        } else {
+            document.querySelector(".logo").style.width = '9.992vw';
+            document.querySelector(".logo").style.height = '5.49vw';
+        }
     }
-    ))
-}
-));
+});
 
 
 const services = document.querySelectorAll(".serv")
