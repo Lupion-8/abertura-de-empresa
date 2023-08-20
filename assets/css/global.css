@@ -24,7 +24,7 @@ html::-webkit-scrollbar-track {
 
 .logo{ transition: 500ms;}
 .sec01 {
-    background-image: url(../images/banner-bg.avif);
+    background-image: url(../images/banner-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
@@ -224,7 +224,7 @@ h3 {
 }
 
 footer {
-    background-image: url(../images/banner-bg.avif);
+    background-image: url(../images/banner-bg.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
