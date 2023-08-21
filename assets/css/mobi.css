@@ -14,7 +14,7 @@ header {
 }
 
 .sec01 {
-    background-image: url(../images/banner-bg.webp);
+    background-image: url('../images/banner-bg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
@@ -34,7 +34,11 @@ header {
     margin-top: 5vw;
     top: 22vw;
 }
-
+.vert02 .lay_text {
+    text-align: center;
+    color: var(--cor-white);
+    font-style: italic;
+}
 .container01 .vert02 {
     position: absolute;
     margin-top: 8vw;
@@ -443,7 +447,8 @@ footer {
 
 .textContato {
     margin: 1vw 0;
-    font-size: 3.5vw
+    font-size: 3.5vw;
+    color: white;
 }
 
 .contatoss>:nth-child(2) {
