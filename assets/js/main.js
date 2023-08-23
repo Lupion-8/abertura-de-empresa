@@ -203,27 +203,6 @@ $(window).on('scroll', function (event) {
 });
 
 
-const services = document.querySelectorAll(".serv")
-  , popop = document.createElement("div");
-popop.classList.add("popop"),
-services.forEach((e=>{
-    e.addEventListener("mouseenter", (t=>{
-        e.querySelector("i").style.fontSize = "2vw",
-        e.querySelector("i").style.marginBottom = "1vw",
-        e.querySelector("i").style.transition = "1s",
-        e.querySelector("span").textContent = e.dataset.description
-    }
-    )),
-    e.addEventListener("mouseleave", (t=>{
-        e.querySelector("i").style.fontSize = "3vw",
-        e.querySelector("i").style.transition = "1s",
-        e.querySelector("i").style.marginBottom = "2vw",
-        e.querySelector("span").textContent = e.dataset.orige
-    }
-    ))
-}
-));
-
 
 const textElement = document.querySelector('.setedois');
 const text = "72 horas"; // Frase para animar

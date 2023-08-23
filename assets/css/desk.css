@@ -287,6 +287,10 @@ font-size: 1.5vw;
     margin-bottom: 2vw;
     font-size: 3vw
 }
+.container05 .vert02 .serv span {
+    margin-bottom: 1vw;
+    font-size: 2vw
+}
 
 .container05 .action {
     background-color: var(--cor-primaria);
@@ -373,7 +377,7 @@ content: ' Agende uma consulta gratuita.';
     bottom: 3.843vw;
     width: 5.227vw;
     height: 5.765vw;
-    background-image: url('../images/wpp.webp');
+    background-image: url('../images/wpp.png');
     background-size: cover;
     background-size: 5.381vw;
     background-repeat: no-repeat;

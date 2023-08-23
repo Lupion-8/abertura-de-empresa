@@ -14,7 +14,7 @@ header {
 }
 
 .sec01 {
-    background-image: url('../images/banner-bg.webp');
+    background-image: url('../images/banner-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
@@ -428,7 +428,7 @@ header {
 }
 
 footer {
-    background-image: url(../images/banner-bg.webp);
+    background-image: url('../images/banner-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
