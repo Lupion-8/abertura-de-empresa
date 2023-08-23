@@ -415,10 +415,10 @@ header {
 }
 
 .contatoss {
-    margin: 14vw 4vw 39vw;
+    margin: 14vw 4vw 50vw;
     display: flex;
     flex-direction: column;
-    text-align: start
+    text-align: start;
 }
 
 .iconRedes {
@@ -442,7 +442,8 @@ footer {
 .contatoss>:nth-child(1) {
     font-weight: 600;
     margin-bottom: 1vw;
-    color: white
+    color: white;
+    font-size: 7vw;
 }
 
 .textContato {
@@ -539,4 +540,253 @@ div.pop > div > form.abertura_de_empresa_pop > button.envi {
     margin-top: 1vw;
     max-width: 72vw;
     font-size: 4vw;
+}
+
+@media screen and (max-width: 400px) and (min-height: 520px) {
+    .sec01{
+        background-position-x: -93vw;
+        height: calc(42rem + 27px);
+        margin-bottom: 10vw;
+    }
+}
+
+@media screen and (max-width: 375px) and (min-height: 600px) {
+    .sec01{
+        background-position-x: -93vw;
+        height: calc(61rem + 27px);
+        margin-bottom: 13vw;
+    }
+    .contatoss {
+        margin: 9vw 4vw 37vw;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-height: 800px) {
+    .sec01{
+        background-position-x: -81vw;
+        height: calc(69rem + 8vw);
+        margin-bottom: 13vw;
+    }
+}
+
+@media screen and (max-width: 390px) and (min-height: 800px) {
+    .sec01{
+        background-position-x: -116vw;
+        height: calc(64rem + 7vw);
+        margin-bottom: 18vw;
+    }
+}
+
+@media screen and (max-width: 393px) and (min-height: 851px) {
+    .sec01{
+        background-position-x: -116vw;
+        height: calc(64rem + 7vw);
+        margin-bottom: 18vw;
+    }
+}
+
+@media screen and (max-width: 360px) and (min-height: 740px) {
+    .sec01{
+        background-position-x: -116vw;
+        height: calc(59rem + 7vw);
+        margin-bottom: 18vw;
+    }
+    .contatoss {
+        margin: 12vw 4vw 48vw;
+    }
+}
+
+
+
+/*tablet for  mini*/
+@media screen and (max-width: 768px) and (min-height: 1024px) {
+    .sec01{
+        background-position-x: -200vw;
+        height: calc(74rem + 15vw);
+        margin-bottom: 71vw;
+    }
+    .contatoss {
+        margin: 0vw 5vw 53vw;
+    }
+
+    .container01 {
+        display: flex;
+        flex-direction: column;
+        padding: 9vw 6vw;
+        align-items: center;
+    }
+    .container01 .vert01 img {
+        width: 56.38vw;
+        height: 63.802vw;
+        z-index: 2;
+        position: relative;
+        top: 12vw;
+    }
+    .container01 .vert02 .lay_text h1 {
+        font-size: 4.7vw;
+        top: -13vw;
+        position: relative;
+        font-style: italic;
+    }
+    .container01 .vert02 .lay_text h2 {
+        font-size: 4vw;
+        margin-top: 54vw;
+    }
+    .vert02 .lay_text h2 {
+        font-size: 2.72vw;
+        font-weight: bold;
+    }
+    .container01 .vert02 .lay_text h3 {
+        font-size: 3.72vw;
+        margin-top: -10vw;
+    }
+    .container01 .vert02 .action {
+        font-size: .7vw;
+        margin-top: 18vw;
+    }
+    .wapp {
+        width: 15.227vw;
+        height: 20.765vw;
+        background-size: 14.381vw;
+    }
+    .contatoss>:nth-child(1) {
+        font-family: 'Arial';
+        font-weight: 600;
+        font-size: 5vw;
+        margin-bottom: 1vw;
+        color: white;
+    }
+    .contatoss>:nth-child(2) {
+        font-family: 'Arial';
+        font-weight: 600;
+        font-size: 3.3vw;
+        margin-bottom: 1vw;
+        color: white;
+    }
+    .container05 .action, .container03 .vert02 .action {
+        border-radius: 1vw;
+    }
+    .container01 .vert02 .action{
+        border-radius: 1vw;
+    }
+    .container02 .action{
+        border-radius: 1vw;
+    }
+    .container02 .action a{
+        font-size: 3vw;
+    }
+    .container01 .action a{
+        font-size: 3.2vw;
+    }
+    .action a {
+      font-size: 4vw;
+    }
+    .container03 .vert02 .action::after, .container05 .action::after {
+       font-size: 3vw;
+    }
+    .carousel-prev, .carousel-next {
+        font-size: 5vw;
+    }
+    .container05 .vert02 .serv span {
+        margin-bottom: 1vw;
+        font-size: 5vw;
+        font-weight: bold;
+    }
+
+    .infos span:nth-child(1) {
+        max-width: 82vw;
+    }
+    .pass {
+        margin: 7vw 9vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .infos {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .infos span:nth-child(1) {
+    font-size: 5vw;
+    text-align: center;
+}
+    .paragraphe02 {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10vw;
+    }
+    .paragraphe02 span {
+        font-size: 4vw;
+        /* text-align: end; */
+        max-width: 91vw;
+    }
+    .container02 {
+        text-align: center;
+    }
+    .ngs {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 9vw 3vw;
+        align-items: center;
+    }
+    .container03 .vert02 .ngs .ng {
+        border-radius: 1vw;
+        font-size: 3vw;
+        width: 56vw;
+        padding: 10vw 6vw;
+    }
+    .container03 .vert02 span {
+        font-weight: bold;
+        margin-bottom: 2vw;
+        font-size: 4vw;
+       
+    }
+
+    .carousel-item {
+        flex: 0 0 calc(100% / 3);
+        margin-right: 9vw;
+        margin-left: -2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         padding: 0vw; 
+        border-radius: 2.5vw;
+    }
+    .carousel {
+        width: 100vw;
+        left: 0vw;
+    }
+    .carousel-item img {
+        width: 67vw;
+        height: 85.499vw;
+    }
+  
+    .accordion-title {
+        margin: 0;
+        font-size: 3vw;
+    }
+    .accordion-content p {
+        font-size: 2.5vw;
+    }
+    .container05 .vert02 .serv {
+        font-size: 3vw;
+    }
+    .envi {
+        font-size: 3vw;
+    }
+    footer {
+        height: 84vh;
+    }
+    .lay_whats {
+        right: 3vw;
+        bottom: 74vw;
+        width: 93vw;
+        top: calc(50% - 321px);
+    }
 }
