@@ -20,7 +20,7 @@ document.getElementById("particles-1") && particlesJS("particles-1", {
                 nb_sides: 6
             },
             image: {
-                src: "assets/images/logot_opacity_10.webp",
+                src: "assets/images/logot_opacity_10.png",
                 width: 100,
                 height: 100
             }
@@ -193,8 +193,8 @@ $(window).on('scroll', function (event) {
     var scroll = $(window).scrollTop();
     if (isMobileDevice() == false) {
         if (scroll < 20) {
-            document.querySelector(".logo").style.width = '14.688vw';
-            document.querySelector(".logo").style.height = '8.069vw';
+            document.querySelector(".logo").style.width = '13.989346574531702vw';
+            document.querySelector(".logo").style.height = '7.686454161830605vw';
         } else {
             document.querySelector(".logo").style.width = '9.992vw';
             document.querySelector(".logo").style.height = '5.49vw';
@@ -260,22 +260,3 @@ document.getElementById('countrySelect').addEventListener('change', function() {
     }
     document.querySelector('.country-image').src = 'https://dk9suync0k2va.cloudfront.net/js/rd/stable/flags/4x3/'+this.value+'.svg'
 });
-
-//verificação de conteudo
-function supportsWebP() {
-    var elem = document.createElement('canvas');
-  
-    if (!!(elem.getContext && elem.getContext('2d'))) {
-      // foi possível criar um contexto de desenho
-      return elem.toDataURL('image/webp').indexOf('data:image/webp') === 0;
-    }
-  
-    // o contexto de desenho não foi criado
-    return false;
-  }
-  
-if (supportsWebP()) {
- alert('debug: O webp é suportado por esse dispositivo');
-} else {
-    document.querySelector('.sec01').classList.add('no-webp');
-}

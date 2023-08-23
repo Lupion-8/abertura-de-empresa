@@ -24,7 +24,7 @@ html::-webkit-scrollbar-track {
 
 .logo{ transition: 500ms;}
 .sec01 {
-    background-image: url('../images/banner-bg.webp');
+    background-image: url('../images/banner-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
@@ -34,11 +34,6 @@ html::-webkit-scrollbar-track {
     top: 4vw;
     position: relative;
     color: var(--cor-white)
-}
-
-/* Fallback para JPEG se o navegador não suporta WebP */
-.no-webp .sec01 {
-    background-image: url('../images/banner-bg.png');
 }
 
 .particles {
@@ -229,7 +224,7 @@ h3 {
 }
 
 footer {
-    background-image: url(../images/banner-bg.webp);
+    background-image: url('../images/banner-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
@@ -323,7 +318,7 @@ section.sec000 {
     bottom: 3.843vw;
     width: 5.227vw;
     height: 5.765vw;
-    background-image: url('../images/wpp.webp');
+    background-image: url('../images/wpp.png');
     background-size: cover;
     background-size: 5.381vw;
     background-repeat: no-repeat;
