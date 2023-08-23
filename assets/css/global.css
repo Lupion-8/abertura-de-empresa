@@ -24,7 +24,7 @@ html::-webkit-scrollbar-track {
 
 .logo{ transition: 500ms;}
 .sec01 {
-    background-image: url(../images/banner-bg.webp);
+    background-image: url('../images/banner-bg.webp');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: bottom;
@@ -34,6 +34,11 @@ html::-webkit-scrollbar-track {
     top: 4vw;
     position: relative;
     color: var(--cor-white)
+}
+
+/* Fallback para JPEG se o navegador não suporta WebP */
+.no-webp .sec01 {
+    background-image: url('../images/banner-bg.png');
 }
 
 .particles {

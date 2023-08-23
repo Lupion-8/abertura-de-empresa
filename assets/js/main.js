@@ -261,3 +261,21 @@ document.getElementById('countrySelect').addEventListener('change', function() {
     document.querySelector('.country-image').src = 'https://dk9suync0k2va.cloudfront.net/js/rd/stable/flags/4x3/'+this.value+'.svg'
 });
 
+//verificação de conteudo
+function supportsWebP() {
+    var elem = document.createElement('canvas');
+  
+    if (!!(elem.getContext && elem.getContext('2d'))) {
+      // foi possível criar um contexto de desenho
+      return elem.toDataURL('image/webp').indexOf('data:image/webp') === 0;
+    }
+  
+    // o contexto de desenho não foi criado
+    return false;
+  }
+  
+if (supportsWebP()) {
+
+} else {
+    document.querySelector('.sec01').classList.add('.no-webp');
+}
