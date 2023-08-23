@@ -542,7 +542,7 @@ div.pop > div > form.abertura_de_empresa_pop > button.envi {
     font-size: 4vw;
 }
 
-@media screen and (max-width: 400px) and (min-height: 520px) {
+@media screen and (min-width: 400px) and (max-height: 520px) {
     .sec01{
         background-position-x: -93vw;
         height: calc(42rem + 27px);
@@ -550,7 +550,7 @@ div.pop > div > form.abertura_de_empresa_pop > button.envi {
     }
 }
 
-@media screen and (max-width: 375px) and (min-height: 600px) {
+@media screen and (min-width: 375px) and (max-height: 600px) {
     .sec01{
         background-position-x: -93vw;
         height: calc(61rem + 27px);
@@ -561,7 +561,7 @@ div.pop > div > form.abertura_de_empresa_pop > button.envi {
     }
 }
 
-@media screen and (max-width: 450px) and (min-height: 800px) {
+@media screen and (min-width: 450px) and (max-height: 800px) {
     .sec01{
         background-position-x: -81vw;
         height: calc(69rem + 8vw);
@@ -569,7 +569,7 @@ div.pop > div > form.abertura_de_empresa_pop > button.envi {
     }
 }
 
-@media screen and (max-width: 390px) and (min-height: 800px) {
+@media screen and (min-width: 390px) and (max-height: 800px) {
     .sec01{
         background-position-x: -116vw;
         height: calc(64rem + 7vw);
@@ -577,7 +577,7 @@ div.pop > div > form.abertura_de_empresa_pop > button.envi {
     }
 }
 
-@media screen and (max-width: 393px) and (min-height: 851px) {
+@media screen and (min-width: 393px) and (max-height: 851px) {
     .sec01{
         background-position-x: -116vw;
         height: calc(64rem + 7vw);
@@ -585,7 +585,7 @@ div.pop > div > form.abertura_de_empresa_pop > button.envi {
     }
 }
 
-@media screen and (max-width: 360px) and (min-height: 740px) {
+@media screen and (min-width: 360px) and (max-height: 740px) {
     .sec01{
         background-position-x: -116vw;
         height: calc(59rem + 7vw);
@@ -599,7 +599,7 @@ div.pop > div > form.abertura_de_empresa_pop > button.envi {
 
 
 /*tablet for  mini*/
-@media screen and (max-width: 768px) and (min-height: 1024px) {
+@media screen and (min-width: 768px) and (max-height: 1024px) {
     .sec01{
         background-position-x: -200vw;
         height: calc(74rem + 15vw);
