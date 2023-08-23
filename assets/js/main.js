@@ -275,7 +275,7 @@ function supportsWebP() {
   }
   
 if (supportsWebP()) {
-
+ alert('debug: O webp é suportado por esse dispositivo');
 } else {
-    document.querySelector('.sec01').classList.add('.no-webp');
+    document.querySelector('.sec01').classList.add('no-webp');
 }

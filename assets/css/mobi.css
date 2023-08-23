@@ -26,11 +26,6 @@ header {
     position: relative
 }
 
-/* Fallback para JPEG se o navegador não suporta WebP */
-.no-webp .sec01 {
-    background-image: url('../images/banner-bg.png');
-}
-
 .container01 .vert01 img {
     width: 80vw;
     height: 90.25641025641026vw;
