@@ -555,9 +555,7 @@
         height: calc(57rem + 11vw);
         margin-bottom: 19vw;
     }
-    .contatoss {
-        /* margin: 15vw 5vw 40vw; */
-    }
+
     footer {
         height: 78vh;
         background-position: bottom;
