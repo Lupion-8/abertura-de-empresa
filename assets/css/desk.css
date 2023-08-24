@@ -394,107 +394,14 @@ content: ' Agende uma consulta gratuita.';
     cursor: pointer;
 }
 
-
-
-/*tablet============*/
-@media screen and (max-width: 912px) and (min-height: 1180px) {
-    .sec01{
-        background-position-x: -116vw;
-        height: calc(59rem + 15vw);
-        margin-bottom: -5vw;
-    }
-    .contatoss {
-        margin: 12vw 4vw 48vw;
-    }
-    .container01 {
-        display: flex;
-        flex-direction: column;
-        padding: 9vw 6vw;
-        align-items: center;
-    }
-    .container01 .vert01 img {
-        width: 54.024vw;
-        height: 59.756vw;
-        z-index: 2;
-        position: relative;
-        top: 12vw;
-    }
-    .container01 .vert02 .lay_text h1 {
-        font-size: 4.7vw;
-        top: -60vw;
-        position: relative;
-        font-style: italic;
-    }
-    .vert02 .lay_text h2 {
-        font-size: 2.72vw;
-        font-weight: bold;
-    }
-    .container01 .vert02 .lay_text h3 {
-        font-size: 2.72vw;
-    }
-    .container01 .vert02 .action {
-        font-size: 2.7vw;
-    }
-    .wapp {
-        width: 15.227vw;
-        height: 20.765vw;
-        background-size: 14.381vw;
-    }
-    .contatoss>:nth-child(1) {
-        font-family: 'Arial';
-        font-weight: 600;
-        font-size: 5vw;
-        margin-bottom: 1vw;
-        color: white;
-    }
-    .contatoss>:nth-child(2) {
-        font-family: 'Arial';
-        font-weight: 600;
-        font-size: 3.3vw;
-        margin-bottom: 1vw;
-        color: white;
-    }
-    .container05 .action, .container03 .vert02 .action {
-        border-radius: 1vw;
-    }
-    .container01 .vert02 .action{
-        border-radius: 1vw;
-    }
-    .container02 .action{
-        border-radius: 1vw;
-    }
-    .container02 .action a{
-        font-size: 3.2vw;
-    }
-    .container01 .action a{
-        font-size: 3.2vw;
-    }
-    .action a {
-      font-size: 4vw;
-    }
-    .container03 .vert02 .action::after, .container05 .action::after {
-       font-size: 3vw;
-    }
-    .carousel-prev, .carousel-next {
-        font-size: 5vw;
-    }
-    .container05 .vert02 .serv span {
-        margin-bottom: 1vw;
-        font-size: 2vw;
-        font-weight: bold;
-    }
-    .lay_whats {
-        /* right: 2vw; */
-        bottom: 58vw;
-        right: 29vw;
-        position: absolute;
-        width: 37vw;
-        background-color: #ffffff;
-    }
+.container05 .action{
+    margin-top: 0vw;
 }
 
-
-
-
-
+.dev {
+    border-top: 1px solid rgba(255, 255, 255, .3);
+    transform: rotate(180deg);
+    font-size: 1vw;
+    text-align: center;
+}
 
