@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 375px){
     header {
         background: var(--cor-white);
         padding: 2vw 0;
@@ -546,7 +546,7 @@
         font-size: 4vw;
     }
 }
-
+/*
 @media screen and (max-width: 520px){
     .sec01 {
         height: calc(61rem + 11vw);
@@ -559,7 +559,7 @@
 
 
 
-/*
+
 @media screen and (min-width: 591px){
     .sec01{
         background-position-x: -93vw;
