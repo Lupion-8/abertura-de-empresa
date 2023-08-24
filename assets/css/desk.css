@@ -1,3 +1,4 @@
+@media screen and (min-width: 820px){
 header {
     background: var(--cor-white);
     padding: 1vw 0;
@@ -289,7 +290,7 @@ font-size: 1.5vw;
 }
 .container05 .vert02 .serv span {
     margin-bottom: 1vw;
-    font-size: 2vw
+    font-size: 1.5vw
 }
 
 .container05 .action {
@@ -405,3 +406,4 @@ content: ' Agende uma consulta gratuita.';
     text-align: center;
 }
 
+}

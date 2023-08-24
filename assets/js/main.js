@@ -240,4 +240,4 @@ document.getElementById('countrySelect').addEventListener('change', function() {
     document.querySelector('.country-image').src = 'https://dk9suync0k2va.cloudfront.net/js/rd/stable/flags/4x3/'+this.value+'.svg'
 });
 
-//alert(window.screen.width +' : '+ window.screen.height )
+alert(window.screen.width +' : '+ window.screen.height )
