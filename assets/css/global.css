@@ -417,10 +417,10 @@ section.sec000 {
     cursor: pointer
 }
 
-a.tel-link {
-    color: var(--cor-white);
-    text-decoration: none; /* Opcional: Remove o sublinhado padrão dos links */
-  }
+.tel-link {
+    color: white;
+    text-decoration: none;
+}
 
 .spp {
     text-align: center;
