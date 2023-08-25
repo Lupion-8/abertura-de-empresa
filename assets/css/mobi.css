@@ -859,7 +859,7 @@
     }
 }
 
-@media screen and (min-width: 816px) and (max-width: 912px){
+@media screen and (min-width: 800px) and (max-width: 912px){
     .sec01{
         height: calc(61rem + -378px);
         margin-bottom: 0vw;
