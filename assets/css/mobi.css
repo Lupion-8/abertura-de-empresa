@@ -550,22 +550,12 @@
     }
 }
 
-@media screen and (min-width: 320px) and (max-width: 360px){
-    .sec01 {
-        height: calc(57rem + 11vw);
-        margin-bottom: 19vw;
-    }
 
-    footer {
-        height: 78vh;
-        background-position: bottom;
-    }
-}
-
-@media screen and (min-width: 360px) and (max-width: 373px){
+/*Telefones menores*/
+@media screen and (max-width: 768px) and (max-height: 700px){
     .sec01 {
-        height: calc(57rem + 11vw);
-        margin-bottom: 19vw;
+        height: 276vw;
+        margin-bottom: 22vw;
     }
     .contatoss {
         margin: 15vw 5vw 39vw;
@@ -574,27 +564,123 @@
         height: 78vh;
     }
 }
-@media screen and (min-width: 373px) and (max-width: 390px){
+
+/*Telefones maiores*/
+@media screen and (max-width: 480px) and (max-height: 851px){
     .sec01 {
-        height: calc(61rem + 11vw);
+        height: 268vw;
         margin-bottom: 19vw;
     }
 }
 
-@media screen and (min-width: 390px) and (max-width: 420px){
+@media screen and (max-width: 600px) and (max-height: 960px){
     .sec01 {
-        height: calc(62rem + 26vw);
+        height: 271vw;
         margin-bottom: 19vw;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-height: 1024px){
+    .sec01 {
+        height: 120vw;
+        margin-bottom: 0vw;
+        top: 0vw;
+        background-position-x: 0vw;
+    }
+
+    .container01 .vert02 .lay_text h1 {
+        font-size: 3.7vw;
+        top: -8vw;
+        position: relative;
+        font-style: italic;
+    }
+
+    .container01 .vert02 .lay_text h2 {
+        font-size: 3vw;
+        top: 20vw;
+        position: relative;
+    }
+
+    .container01 .vert01 img {
+        width: 26.977171231139366vw !important;
+        height: 29.89726285367297vw !important;
+    }
+    .container01 .vert01 img {
+        top: 0vw;
+        left: 12vw !important;
+        margin-top: 12vw !important;
+    }
+
+    .container01 .vert02 .action {
+        margin-top: 33vw;
+        font-size: 4vw;
+        padding: 2vw;
+        border-radius: 1.3000000000000007vw;
     }
     .contatoss {
         margin: 7vw 5vw 63vw;
     }
-    footer{
-        padding: 8vw 0vw;
+    .container01 .vert01 img {
+        top: 0vw;
+        left: -17vw;
+        margin-top: 10vw;
+    }
+
+    .pass {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sec02 {
+        margin-top: -11vw !important;
+    }
+
+
+    .carousel {
+    overflow: scroll !important;
+    }
+    .infos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .paragraphe02 {
+        margin-top: 0vw;
+    }    
+    .container05 .vert02 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .container05 .vert02 .serv {
+         width: 100vw !important;
+    }
+
+    .contatoss>:nth-child(1) {
+        font-size: 4vw !important;
+    }
+    .contatoss>:nth-child(2) {
+        font-size: 3vw !important;
+    }
+
+    .envi {
+        width: 40vw;
+        border-radius: 10vw;
+        padding: 1.7999999999999998vw;
+        font-size: 3vw;
+    }
+
+    .nn, .tt, .ee {
+        padding: 1.5vw;
+        width: 90%;
+        font-size: 3vw;
     }
 }
 
-
+/*
 @media screen and (min-width: 420px) and (max-width: 480px){
     .sec01 {
         height: calc(68rem + 26vw);
@@ -603,7 +689,7 @@
 }
 
 
-/*Tablet*/
+Tablet
 
 
 @media screen and (min-width: 540px) and (max-width: 912px) and (max-height: 720px){
@@ -627,237 +713,6 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 815px) {
-    .sec01 {
-        background-position-x: -200vw;
-        height: calc(74rem + 15vw);
-        margin-bottom: 71vw;
-    }
-
-    .contatoss {
-        margin: 0vw 5vw 53vw;
-    }
-
-    .container01 {
-        display: flex;
-        flex-direction: column;
-        padding: 9vw 6vw;
-        align-items: center;
-    }
-
-    .container01 .vert01 img {
-        width: 56.38vw;
-        height: 63.802vw;
-        z-index: 2;
-        position: relative;
-        top: 12vw;
-    }
-
-    .container01 .vert02 .lay_text h1 {
-        font-size: 4.7vw;
-        top: -13vw;
-        position: relative;
-        font-style: italic;
-    }
-
-    .container01 .vert02 .lay_text h2 {
-        font-size: 4vw;
-        margin-top: 54vw;
-    }
-
-    .vert02 .lay_text h2 {
-        font-size: 2.72vw;
-        font-weight: bold;
-    }
-
-    .container01 .vert02 .lay_text h3 {
-        font-size: 3.72vw;
-        margin-top: -10vw;
-    }
-
-    .container01 .vert02 .action {
-        font-size: .7vw;
-        margin-top: 11vw;
-    }
-
-    .wapp {
-        width: 15.227vw;
-        height: 20.765vw;
-        background-size: 14.381vw;
-    }
-
-    .contatoss>:nth-child(1) {
-        font-family: 'Arial';
-        font-weight: 600;
-        font-size: 5vw;
-        margin-bottom: 1vw;
-        color: white;
-    }
-
-    .contatoss>:nth-child(2) {
-        font-family: 'Arial';
-        font-weight: 600;
-        font-size: 3.3vw;
-        margin-bottom: 1vw;
-        color: white;
-    }
-
-    .container05 .action,
-    .container03 .vert02 .action {
-        border-radius: 1vw;
-    }
-
-    .container01 .vert02 .action {
-        border-radius: 1vw;
-    }
-
-    .container02 .action {
-        border-radius: 1vw;
-    }
-
-    .container02 .action a {
-        font-size: 3vw;
-    }
-
-    .container01 .action a {
-        font-size: 3.2vw;
-    }
-
-    .action a {
-        font-size: 4vw;
-    }
-
-    .container03 .vert02 .action::after,
-    .container05 .action::after {
-        font-size: 3vw;
-    }
-
-    .carousel-prev,
-    .carousel-next {
-        font-size: 5vw;
-    }
-
-    .container05 .vert02 .serv span {
-        margin-bottom: 1vw;
-        font-size: 5vw;
-        font-weight: bold;
-    }
-
-    .infos span:nth-child(1) {
-        max-width: 82vw;
-    }
-
-    .pass {
-        margin: 7vw 9vw;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .infos {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .infos span:nth-child(1) {
-        font-size: 5vw;
-        text-align: center;
-    }
-
-    .paragraphe02 {
-        display: flex;
-        flex-direction: column-reverse;
-        align-items: center;
-        justify-content: center;
-        margin-top: 10vw;
-    }
-
-    .paragraphe02 span {
-        font-size: 4vw;
-        max-width: 91vw;
-    }
-
-    .container02 {
-        text-align: center;
-    }
-
-    .ngs {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-        justify-content: space-between;
-        margin: 9vw 3vw;
-        align-items: center;
-    }
-
-    .container03 .vert02 .ngs .ng {
-        border-radius: 1vw;
-        font-size: 3vw;
-        width: 56vw;
-        padding: 10vw 6vw;
-    }
-
-    .container03 .vert02 span {
-        font-weight: bold;
-        margin-bottom: 2vw;
-        font-size: 4vw;
-
-    }
-
-    .carousel-item {
-        flex: 0 0 calc(100% / 3);
-        margin-right: 9vw;
-        margin-left: -2vw;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 0vw;
-        border-radius: 2.5vw;
-    }
-
-    .carousel {
-        width: 100vw;
-        left: 0vw;
-    }
-
-    .carousel-item img {
-        width: 67vw;
-        height: 85.499vw;
-    }
-
-    .accordion-title {
-        margin: 0;
-        font-size: 3vw;
-    }
-
-    .accordion-content p {
-        font-size: 2.5vw;
-    }
-
-    .container05 .vert02 .serv {
-        font-size: 3vw;
-    }
-
-    .envi {
-        font-size: 3vw;
-    }
-
-    footer {
-        height: 84vh;
-    }
-
-    .lay_whats {
-        right: 3vw;
-        bottom: 74vw;
-        width: 93vw;
-        top: calc(50% - 321px);
-    }
-    .dev {
-        font-size: 1.5vw;
-    }
-}
 
 @media screen and (min-width: 800px) and (max-width: 912px){
     .sec01{
@@ -922,3 +777,4 @@
         background-size: 13.381vw !important;
     }
 }
+*/

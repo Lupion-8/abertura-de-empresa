@@ -1,4 +1,4 @@
-@media screen and (min-width: 800px){
+@media screen and (min-width: 768px){
 header {
     background: var(--cor-white);
     padding: 1vw 0;
