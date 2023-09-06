@@ -125,7 +125,7 @@ if (userAgent.match(/Android/i)) {
   }
 } else {
   // Se não corresponder a dispositivos conhecidos, imprima o agente do usuário completo
-  rastreio.system_infortions.nome_dispositivo = "dispositivo desktop: " + userAgent;
+  rastreio.system_infortions.nome_dispositivo = userAgent;
 }
 
 } else {
