@@ -43,7 +43,8 @@ document.querySelector(".envi").addEventListener("click", (async e=>{
                     pagina: "landing 2",
                     id: `${m}-${d}`,
                     origen:"formulario",
-                    page:'Abertura de empresa'
+                    page:'Abertura de empresa',
+                    rastreio
                 };
                 formController(await e)
             } else
@@ -80,8 +81,9 @@ document.querySelector(".envi_pop").addEventListener("click", (async e=>{
                     status: "novo",
                     pagina: "landing 2",
                     id: `${m}-${d}`,
-                    origen:"pop",
-                    page:'Abertura de empresa'
+                    origen:"pop-up",
+                    page:'Abertura de empresa',
+                    rastreio
                 };
                 formController(await e)
             } else
